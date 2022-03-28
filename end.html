@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>My Site</title>
+  <meta name="description" content="This is my portfolio page">
+  <meta name="author" content="Ansh">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+<div style = "background-color: orange; text-align: center;">
+  <h1>Answer</h1>
+</div>
+
+<div style="background-color: grey; text-align:center;">
+  <p>You now have to pick your answer. if you think the first news is real click the button and put number one in the textbox. If you think the second news is real click the button and put the number 2 in the text box.</p>
+</div>
+
+<header class="main_nav green">
+  <div class="container">
+  <div class="logo">
+    <button onclick="answer()">Answer</button>
+  </div>
+</div>
+</header>
+
+  <div class="container">
+  <div class="logo">
+  <div style="text-align: center; background-color: red;"class="twelve columns">
+   <a href="sources.html">Sources</a>
+  </div>
+</div>
+</div>
+
+<script>
+  function answer(){
+    let x = prompt("1 or 2")
+  parseFloat(x)
+  if(x==1){
+    y = "you are right"
+  }
+  else{
+    y = "you are wrong"
+  }
+  alert(y)
+}
+
+</script>
+
+</body>
+</html>
+
+
+
